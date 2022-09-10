@@ -28,7 +28,29 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              {
+                "input": "src/styles.scss"
+              },
+              {
+                "inject": false,
+                "input": "src/styles/custom-themes/pink-bluegrey.scss",
+                "bundleName": "pink-bluegrey"
+              },
+              {
+                "inject": false,
+                "input": "src/styles/custom-themes/deeppurple-amber.scss",
+                "bundleName": "deeppurple-amber"
+              },
+              {
+                "inject": false,
+                "input": "src/styles/custom-themes/indigo-pink.scss",
+                "bundleName": "indigo-pink"
+              },
+              {
+                "inject": false,
+                "input": "src/styles/custom-themes/purple-green.scss",
+                "bundleName": "purple-green"
+              }
             ],
             "scripts": []
           },
@@ -96,12 +118,37 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              {
+                "input": "src/styles.scss"
+              },
+              {
+                "inject": false,
+                "input": "src/styles/custom-themes/pink-bluegrey.scss",
+                "bundleName": "pink-bluegrey"
+              },
+              {
+                "inject": false,
+                "input": "src/styles/custom-themes/deeppurple-amber.scss",
+                "bundleName": "deeppurple-amber"
+              },
+              {
+                "inject": false,
+                "input": "src/styles/custom-themes/indigo-pink.scss",
+                "bundleName": "indigo-pink"
+              },
+              {
+                "inject": false,
+                "input": "src/styles/custom-themes/purple-green.scss",
+                "bundleName": "purple-green"
+              }
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a9dae3d3-0f49-4191-a6d3-a81afc7a22ac"
   }
 }
